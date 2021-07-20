@@ -6,9 +6,9 @@ workflows:
       - test
 
 jobs:
-  test:
-  docker:
+test:
+docker:
       - image: cimg/node:16.5.0
-    steps:
+steps:
       - checkout
       - run: node --version
