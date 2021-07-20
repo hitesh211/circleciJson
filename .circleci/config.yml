@@ -7,7 +7,7 @@ workflows:
 
 jobs:
   test:
-  docker:
+    docker:
       - image: cimg/node:16.5.0
     steps:
       - checkout
